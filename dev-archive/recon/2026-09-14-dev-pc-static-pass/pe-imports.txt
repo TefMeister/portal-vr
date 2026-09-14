@@ -1,0 +1,55 @@
+======================================================================
+D:/Program Files (x86)/Steam/steamapps/common/Portal/hl2.exe
+  bits=32  linked=2024-11-13T17:23:55  imagebase=0x400000
+  ASLR(DYNAMIC_BASE)=yes  NX=yes  relocs_stripped=no
+  sections:
+    .text      vaddr=    0x1000 vsize=     54956 rawsize=     55296 chars=0x60000020
+    .rdata     vaddr=    0xf000 vsize=     18940 rawsize=     18944 chars=0x40000040
+    .data      vaddr=   0x14000 vsize=     12612 rawsize=      4608 chars=0xc0000040
+    .rsrc      vaddr=   0x18000 vsize=     31424 rawsize=     31744 chars=0x40000040
+    .reloc     vaddr=   0x20000 vsize=      3620 rawsize=      4096 chars=0x42000040
+  imports:
+    USER32.dll                   (   1) MessageBoxA
+    KERNEL32.dll                 (  65) CloseHandle, GetProcAddress, LocalFree, GetLastError, FormatMessageA, LoadLibraryExA
+======================================================================
+D:/Program Files (x86)/Steam/steamapps/common/Portal/bin/engine.dll
+  bits=32  linked=2024-12-09T23:48:54  imagebase=0x10000000
+  ASLR(DYNAMIC_BASE)=yes  NX=yes  relocs_stripped=no
+  sections:
+    .text      vaddr=    0x1000 vsize=   3241546 rawsize=   3241984 chars=0x60000020
+    .rdata     vaddr=  0x319000 vsize=    870420 rawsize=    870912 chars=0x40000040
+    .data      vaddr=  0x3ee000 vsize=   2779496 rawsize=     69632 chars=0xc0000040
+    .rsrc      vaddr=  0x695000 vsize=        16 rawsize=       512 chars=0x40000040
+    .reloc     vaddr=  0x696000 vsize=    271220 rawsize=    271360 chars=0x42000040
+  imports:
+    USER32.dll                   (  39) GetWindowLongW, FillRect, ShowCursor, AdjustWindowRect, GetWindowRect, GetClientRect
+    ADVAPI32.dll                 (   1) GetUserNameA
+    GDI32.dll                    (  10) SetViewportOrgEx, GetStockObject, GetDeviceCaps, SetTextColor, SetBkMode, Rectangle
+    WINMM.dll                    (  14) mixerGetControlDetailsA, mixerGetLineControlsA, mixerGetLineInfoA, mixerClose, mixerOpen, mixerGetDevCapsA
+    WSOCK32.dll                  (  23) ioctlsocket, send, WSAGetLastError, accept, bind, closesocket
+    WININET.dll                  (   7) InternetSetStatusCallback, InternetReadFile, InternetOpenUrlA, InternetCloseHandle, InternetOpenA, InternetCrackUrlA
+    steam_api.dll                (  23) SteamAPI_GetHSteamUser, SteamInternal_FindOrCreateUserInterface, SteamAPI_SetMiniDumpComment, SteamAPI_RunCallbacks, SteamAPI_RegisterCallback, SteamAPI_UnregisterCallback
+    tier0.dll                    ( 163) ?NumFramesSampled@CVProfile@@QAEHXZ, ?FindNode@CVProfile@@QAEPAVCVProfNode@@PAV2@PBD@Z, ?GetBudgetGroupName@CVProfile@@QAEPBDH@Z, ?UsePME@CVProfile@@QAE_NXZ, ConColorMsg, ?SetName@CThread@@QAEXPBD@Z
+    RPCRT4.dll                   (   3) UuidCreate, UuidToStringA, RpcStringFreeA
+    vstdlib.dll                  (  10) KeyValuesSystem, RandomFloatExp, RandomFloat, CreateThreadPool, ?RandomInt@CUniformRandomStream@@UAEHHH@Z, ?SetSeed@CUniformRandomStream@@UAEXH@Z
+    KERNEL32.dll                 ( 131) GetCurrentThreadId, GetProcessTimes, GetCurrentProcess, GetSystemTimeAsFileTime, GlobalMemoryStatus, CopyFileA
+    SHELL32.dll                  (   1) ShellExecuteA
+  exports: 3 -> ?F@@YAXPAPAVIEngineAPI@@@Z, CreateInterface, cvar
+======================================================================
+D:/Program Files (x86)/Steam/steamapps/common/Portal/portal/bin/client.dll
+  bits=32  linked=2025-05-27T21:24:25  imagebase=0x10000000
+  ASLR(DYNAMIC_BASE)=yes  NX=yes  relocs_stripped=no
+  sections:
+    .text      vaddr=    0x1000 vsize=   3704330 rawsize=   3704832 chars=0x60000020
+    .rdata     vaddr=  0x38a000 vsize=   1163918 rawsize=   1164288 chars=0x40000040
+    .data      vaddr=  0x4a7000 vsize=    778976 rawsize=    173568 chars=0xc0000040
+    .reloc     vaddr=  0x566000 vsize=    456620 rawsize=    456704 chars=0x42000040
+  imports:
+    USER32.dll                   (   2) SystemParametersInfoA, LoadImageA
+    GDI32.dll                    (   5) DeleteDC, GetObjectA, GetDIBits, CreateCompatibleDC, DeleteObject
+    steam_api.dll                (   7) SteamAPI_UnregisterCallback, SteamAPI_InitSafe, SteamAPI_SetTryCatchCallbacks, SteamAPI_RegisterCallback, SteamAPI_GetHSteamUser, SteamInternal_ContextInit
+    tier0.dll                    (  62) ThreadSleep, Plat_MSTime, g_ClockSpeed, ETWEnd, ETWBegin, MemFreeScratch
+    RPCRT4.dll                   (   4) UuidFromStringA, UuidToStringA, UuidCreate, RpcStringFreeA
+    vstdlib.dll                  (  12) RandomInt, RandomSeed, RandomFloat, g_pThreadPool, ??0CGaussianRandomStream@@QAE@PAVIUniformRandomStream@@@Z, ?AttachToStream@CGaussianRandomStream@@QAEXPAVIUniformRandomStream@@@Z
+    KERNEL32.dll                 (  83) CloseHandle, WideCharToMultiByte, MultiByteToWideChar, HeapFree, SetEndOfFile, CreateFileW
+  exports: 2 -> CreateInterface, cvar

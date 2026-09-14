@@ -1,0 +1,38 @@
+# engine.dll
+ClientVirtualReality001
+ForceStereoRenderToFrameBuffer
+Preventing connections to secure servers because sourcevr.dll is not signed.
+SourceVirtualReality001
+Unable to get VRModeAdapter from OpenVR. VR mode will not be enabled. Try restarting and then enabling VR again.
+VRModeAdapter
+mat_enable_vrmode
+mat_vrmode_adapter
+sourcevr.dll
+
+# portal/bin/client.dll
+.?AV?$CBaseAppSystem@VIClientVirtualReality@@@@
+.?AV?$CTier0AppSystem@VIClientVirtualReality@@@@
+.?AV?$CTier1AppSystem@VIClientVirtualReality@@$0A@@@
+.?AV?$CTier2AppSystem@VIClientVirtualReality@@$0A@@@
+.?AV?$CTier3AppSystem@VIClientVirtualReality@@$0A@@@
+.?AVCClientVirtualReality@@
+.?AVIClientVirtualReality@@
+CClientVirtualReality::DrawMainMenu
+ClientVirtualReality001
+ForceStereoRenderToFrameBuffer
+SourceVirtualReality001
+c:\buildslave\rel_singleplayer_win32\build\src\game\client\client_virtualreality.cpp
+exec sourcevr_%s.cfg
+mat_enable_vrmode 0
+
+# bin/GameUI.dll
+#GameUI_VRMode
+#GameUI_VRModeRelaunchMsg
+ForceStereoRenderToFrameBuffer
+SourceVirtualReality001
+VRMode
+VRModeLabel
+mat_enable_vrmode %d
+
+# bin/materialsystem.dll
+mat_vrmode_adapter
