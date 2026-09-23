@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-09-17 (estate sweep) — CHECK-IN.** First pass: folder bootstrapped; one topic answering the `[PD]` row about the `SourceVirtualReality001` interface shape (Valve's own public header) plus the portal1vr prior art; pointer sent to `engine-research/inbox/`.
+**Last `/gr` pass: 2026-09-23 (estate sweep) — CHECK-IN.** Checked phunkaeg's *VR Modding Playbook*: Source entries (portal2vr, l4d2vr, gmcl_openvr, VirtualFortress2) are already in our research; nothing new.
+
+_Previous: **Last `/gr` pass: 2026-09-17 (estate sweep) — CHECK-IN.** First pass: folder bootstrapped; one topic answering the `[PD]` row about the `SourceVirtualReality001` interface shape (Valve's own public header) plus the portal1vr prior art; pointer sent to `engine-research/inbox/`._
 
 Every research topic gathered for this project, newest first. Each row links to a self-contained
 write-up in `topics/`. Status tags:
