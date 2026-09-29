@@ -121,3 +121,10 @@ Two different problems; do not copy HLVR's shape onto this project.
 ## 12. Open risks toward the North Star
 - ⭐ **Valve's own leftover VR mode is still in the code:** `engine.dll` and `client.dll` both contain OpenVR messages ("VR mode will not be enabled") and references to `sourcevr`, but no `sourcevr.dll` ships `[inferred-static 2026-09-13]`. Whether that code can still be switched on is unknown, and worth checking first.
 - Community Source VR projects exist; whether any covers Portal is for `/gr` to establish, not assumed here.
+
+## Inbox folds, 2026-09-29
+
+**The `SourceVirtualReality001` interface shape is in Valve's SDK (`/gr` 2026-09-17).** Source SDK 2013 `src/public/sourcevr/isourcevirtualreality.h`, `IAppSystem`-derived, 22 methods after the base block `[reported]`; confirm the order against `engine.dll` before trusting it for Portal `[hypothesis]`. Topic: `external-research/topics/2026-09-17-sourcevr-interface-shape-and-portal1vr-prior-art.md`.
+
+**Watch: portal1vr now ships builds (`/gr` 2026-09-29).** BowmanFox published six pre-release builds on 2026-09-23/24 (newest `v2026.09.24-bowman.1`), with portal-aware camera and collision work; no push since 2026-09-24 `[reported]`. The pause stands; WATCHING.md updated.
+
