@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-10-04 (estate sweep, second pass) — CHECK-IN.** PAUSED (another VR mod). Watch check: Portal 1 VR still on its 2026-09-24 build. Nothing new.
+**Last `/gr` pass: 2026-10-07 (estate sweep) — CHECK-IN.** PAUSED (another VR mod). Watch check: Portal 1 VR unchanged since the 2026-09-24 pre-release. Nothing new.
+
+_Previous: **Last `/gr` pass: 2026-10-04 (estate sweep, second pass) — CHECK-IN.** PAUSED (another VR mod). Watch check: Portal 1 VR still on its 2026-09-24 build. Nothing new._
 
 _Previous: **Last `/gr` pass: 2026-09-29 (estate sweep) — CHECK-IN.** Inbox empty; the watched portal1vr mod now publishes compiled pre-release builds (six between 2026-09-23 and 2026-09-24), and a watch drop has been sent to `engine-research/inbox/`._
 
