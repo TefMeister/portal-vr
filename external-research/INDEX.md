@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-10-11 (estate sweep) — CHECK-IN.** Inbox empty. Re-checked the other VR mod on WATCHING.md: no change since the row was last updated. Nothing new.
+**Last `/gr` pass: 2026-10-23 (estate sweep) — CHECK-IN.** Inbox empty. Re-checked the other VR mod on WATCHING.md: Portal 1 VR's newest build is still v2026.09.24-bowman.1; last push 2026-10-12. Nothing new.
+
+_Previous: **Last `/gr` pass: 2026-10-11 (estate sweep) — CHECK-IN.** Inbox empty. Re-checked the other VR mod on WATCHING.md: no change since the row was last updated. Nothing new._
 
 _Previous: **Last `/gr` pass: 2026-10-07 (estate sweep) — CHECK-IN.** PAUSED (another VR mod). Watch check: Portal 1 VR unchanged since the 2026-09-24 pre-release. Nothing new._
 
